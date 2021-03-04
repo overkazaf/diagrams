@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T16:35:38.998Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="MSi7KP0OCyFBV1pKR1gf" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T16:37:27.179Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="8MkTbCiNpzLOGjjgfeDm" version="14.4.3" type="github">
   <diagram id="e-o2NXy_7Rxhtaa5HJ04" name="Page-1">
     <mxGraphModel dx="1186" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,20 +20,20 @@
             <mxPoint x="460" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLX-m9lL70Bw2UknYmPF-2" value="Evaluate Job Sync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LLX-m9lL70Bw2UknYmPF-2" value="Dispatch Job Sync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="33.75" y="610" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LLX-m9lL70Bw2UknYmPF-3" target="LLX-m9lL70Bw2UknYmPF-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-3" value="TokenBucketLimitting Gatekeeper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="280" width="210" height="40" as="geometry" />
+          <mxGeometry x="15" y="280" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LLX-m9lL70Bw2UknYmPF-4" target="LLX-m9lL70Bw2UknYmPF-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-4" value="Call ElasticPuppeteerService API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
+          <mxGeometry x="15" y="200" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LLX-m9lL70Bw2UknYmPF-6" target="LLX-m9lL70Bw2UknYmPF-10">
           <mxGeometry relative="1" as="geometry">
@@ -57,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-8" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="23.75" y="60" width="162.5" height="30" as="geometry" />
+          <mxGeometry x="23.75" y="120" width="162.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-10" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="400" width="100" height="40" as="geometry" />
@@ -82,7 +82,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLX-m9lL70Bw2UknYmPF-22" value="Dispatch Job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LLX-m9lL70Bw2UknYmPF-22" value="Dispatch Job Async" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="380" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-24" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LLX-m9lL70Bw2UknYmPF-1" target="LLX-m9lL70Bw2UknYmPF-1">
@@ -119,7 +119,7 @@
             <mxPoint x="645" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LLX-m9lL70Bw2UknYmPF-29" value="GetWorkerThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LLX-m9lL70Bw2UknYmPF-29" value="GetWorkerThreadFromPool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="380" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="LLX-m9lL70Bw2UknYmPF-38">
@@ -151,6 +151,16 @@
         </mxCell>
         <mxCell id="LLX-m9lL70Bw2UknYmPF-39" value="Page Pool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="110" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LLX-m9lL70Bw2UknYmPF-50" value="Auto Scale In/Out" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LLX-m9lL70Bw2UknYmPF-39" target="LLX-m9lL70Bw2UknYmPF-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="90" as="sourcePoint" />
+            <mxPoint x="380" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="40" />
+              <mxPoint x="330" y="40" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
